@@ -70,3 +70,39 @@ portifolio
                 </div>
 </body>
 </html>
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    gap: 30px;
+    height: 100%;
+}
+
+.informacoes {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.esquerda {
+    width: 30vw;
+    background-color:#CEE4EA;
+
+    padding: 55px;
+}
+
+.direita {
+    width: 70vw;
+    background-color:black
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
